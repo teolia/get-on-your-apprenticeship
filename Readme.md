@@ -32,7 +32,7 @@ Ce projet est conçu comme un tp itératif te permettant de tester tes connaissa
     * [[:fire::fire::fire:] [API/DB/CLOUD] Utilise Google Cloud firebase pour stocker les données json](#firefirefire-apidbcloud-utilise-google-cloud-firebase-pour-stocker-les-données-json)
     * [[:fire::fire:] [FRONT] Rend le site responsive pour pouvoir le visualiser sur un smartphone ](#firefire-front-rend-le-site-responsive-pour-pouvoir-le-visualiser-sur-un-smartphone)
     * [[:fire::fire:] [FRONT] Met en place des tests fonctionnels avec Cypress](#firefire-front-met-en-place-des-tests-fonctionnels-avec-cypress)
-    * [[:fire::fire] [API] Met en place des tests unitaires avec jest sur l'API](#firefire-api-met-en-place-des-tests-unitaires-avec-jest-sur-lapi)
+    * [[:fire::fire:] [API] Met en place des tests unitaires avec jest sur l'API](#firefire-api-met-en-place-des-tests-unitaires-avec-jest-sur-lapi)
 
 ## Outils
 * Pour faire le projet, tu peux utiliser les outils que tu souhaites (VSCode, vim, Atom, Sublime, ...).
