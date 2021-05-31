@@ -201,7 +201,7 @@ Ici, tu dois implémenter des tests fonctionnels (des tests qui simulent des cli
 
 > Tu peux t'aider de [ce genre d'article](https://www.cypress.io/blog/2021/04/06/cypress-component-testing-react/)
 
-#### [:fire::fire] [API] Met en place des tests unitaires avec jest sur l'API
+#### [:fire::fire:] [API] Met en place des tests unitaires avec jest sur l'API
 Maintenant que tu as implémenté des tests automatisés dans ton front, il va falloir se pencher sur les tests automatisés de l'API.
 
 Cette fois ci, les tests automatisés vont vérifier si les données attendues sont bien renvoyées, si le format de renvoi est bien respecté (tableau json par exemple), ou tout autre type de tests qui te donnent envie.
