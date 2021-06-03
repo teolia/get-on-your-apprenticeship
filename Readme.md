@@ -129,7 +129,7 @@ Pour cela, tu peux ajouter une nouvelle route dans le fichier `real.js`.
 
 > :rotating_light::rotating_light::rotating_light::rotating_light::rotating_light::rotating_light::rotating_light::rotating_light::rotating_light::rotating_light:
 
-> Je le remet la parce que je sais que personne lis les consignes jusqu'au bout. A partir d'ici, tu n'es pas obligé de tout faire, choisis juste deux options [:fire] et implémente les. Si tu veux en faire plus, go go go ! :rocket::rocket::rocket: (en vrai si tu arrives à faire tous les items, t'es chaud ! :fire:)
+> Je le remet la parce que je sais que personne lis les consignes jusqu'au bout. A partir d'ici, tu n'es pas obligé de tout faire, choisis juste deux options [:fire:] et implémente les. Si tu veux en faire plus, go go go ! :rocket::rocket::rocket: (en vrai si tu arrives à faire tous les items, t'es chaud ! :fire:)
 
 > :rotating_light::rotating_light::rotating_light::rotating_light::rotating_light::rotating_light::rotating_light::rotating_light::rotating_light::rotating_light:
 
