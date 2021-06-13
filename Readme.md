@@ -24,7 +24,7 @@ Ce projet est conçu comme un tp itératif te permettant de tester tes connaissa
       - [[:star:][:heavy_check_mark:] Ils sont quand même un peu trop en fait. Tires en un au sort !](#star-ils-sont-quand-même-un-peu-trop-en-fait-tires-en-un-au-sort-)
       - [[:fire:] [FRONT/API] As you wish :smile:](#fire-frontapi-as-you-wish-smile)
       - [[:fire:] [FRONT] Claque ton plus beau CSS](#fire-front-claque-ton-plus-beau-css)
-      - [[:fire:] [API] Implémente un système de filtre par maison](#fire-api-implémente-un-système-de-filtre-par-maison)
+      - [[:fire:][:heavy_check_mark:] [API] Implémente un système de filtre par maison](#fire-api-implémente-un-système-de-filtre-par-maison)
       - [[:fire::fire:] [FRONT/API] Dockerise les images front et API](#firefire-frontapi-dockerise-les-images-front-et-api)
       - [[:fire::fire:] [FRONT/CLOUD] Déploie le front sur Github pages](#firefire-frontcloud-déploie-le-front-sur-github-pages)
       - [[:fire:] [API/CLOUD] Déploie l'API sur Heroku](#fire-apicloud-déploie-lapi-sur-heroku)
