@@ -11,8 +11,18 @@ router.get('/', function (req, res) {
 router.get('/students', function (req, res) {
     axios.get(URL_POUDLARSTUDENTS_API)
     .then((response) => {
-        console.log(response);
         res.json(response.data);
+    })
+    .catch((error) => {
+        res.send(error);
+    })
+});
+
+router.get('/randomstudent', function (req, res) {
+    axios.get(URL_POUDLARSTUDENTS_API)
+    .then((response) => {
+        const rand = Math.round(Math.random() * 25);
+        res.json(response.data[rand]);
     })
     .catch((error) => {
         res.send(error);
