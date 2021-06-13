@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 var createError = require('http-errors');
 var express = require('express');
 var cors = require('cors');
@@ -8,6 +9,7 @@ var logger = require('morgan');
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var dummyRouter = require('./routes/dummy');
+var realRouter = require('./routes/real');
 
 var app = express();
 app.use(cors());
@@ -25,6 +27,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/dummy', dummyRouter);
+app.use('/real', realRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
@@ -32,7 +35,7 @@ app.use(function(req, res, next) {
 });
 
 // error handler
-app.use(function(err, req, res, next) {
+app.use(function(err, req, res) {
   // set locals, only providing error in development
   res.locals.message = err.message;
   res.locals.error = req.app.get('env') === 'development' ? err : {};
