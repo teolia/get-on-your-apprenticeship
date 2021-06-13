@@ -9,7 +9,9 @@ router.get('/', function (req, res) {
 });
 
 router.get('/students', function (req, res) {
-    axios.get(URL_POUDLARSTUDENTS_API)
+    var queryParam = req.query.house !== undefined ? "/house/" + req.query.house : "";
+    console.log(queryParam);
+    axios.get(URL_POUDLARSTUDENTS_API + queryParam)
     .then((response) => {
         res.json(response.data);
     })
