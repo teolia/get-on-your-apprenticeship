@@ -19,9 +19,9 @@ Ce projet est conçu comme un tp itératif te permettant de tester tes connaissa
   - [Le projet](#le-projet)
     - [But du projet](#but-du-projet)
     - [Choisi ton parcours !](#choisi-ton-parcours-)
-      - [:star: Affiche la liste des élèves de Poudlard](#star-affiche-la-liste-des-élèves-de-poudlard)
-      - [:star: Eh mais attends, y a personne à Poudlard ou quoi ?!](#star-eh-mais-attends-y-a-personne-à-poudlard-ou-quoi-)
-      - [:star: Ils sont quand même un peu trop en fait. Tires en un au sort !](#star-ils-sont-quand-même-un-peu-trop-en-fait-tires-en-un-au-sort-)
+      - [[:star:][:heavy_check_mark:] Affiche la liste des élèves de Poudlard](#star-affiche-la-liste-des-élèves-de-poudlard)
+      - [[:star:][:heavy_check_mark:] Eh mais attends, y a personne à Poudlard ou quoi ?!](#star-eh-mais-attends-y-a-personne-à-poudlard-ou-quoi-)
+      - [[:star:][:heavy_check_mark:] Ils sont quand même un peu trop en fait. Tires en un au sort !](#star-ils-sont-quand-même-un-peu-trop-en-fait-tires-en-un-au-sort-)
       - [[:fire:] [FRONT/API] As you wish :smile:](#fire-frontapi-as-you-wish-smile)
       - [[:fire:] [FRONT] Claque ton plus beau CSS](#fire-front-claque-ton-plus-beau-css)
       - [[:fire:] [API] Implémente un système de filtre par maison](#fire-api-implémente-un-système-de-filtre-par-maison)
@@ -101,7 +101,7 @@ Pour cela
 
 > Libre à toi d'implémenter ce que tu veux pour l'affichage. Du temps que ça te plait, c'est le principal
 
-#### [:star:][:white_check_mark:] Eh mais attends, y a personne à Poudlard ou quoi ?!
+#### [:star:][:heavy_check_mark:] Eh mais attends, y a personne à Poudlard ou quoi ?!
 Tu dois te rendre compte que la liste des élèves est un peu courte quand même. Pour pallier ce problème, on va aller chercher une liste un peu plus à jour disponible sur l'API du ministère de la magie: http://hp-api.herokuapp.com/api/characters
 
 Ici, ton but va être de réaliser une nouvelle route dans l'API qui se chargera de récupérer la liste des élèves pour toi à chaque appel.
@@ -116,7 +116,7 @@ Puis améliore ton front pour afficher quelques nouvelles informations que tu ne
 
 > Tu peux afficher les infos comme tu le souhaites, essaye juste d'avoir une interface lisible (un tableau par exemple)
 
-#### [:star:][:white_check_mark:] Ils sont quand même un peu trop en fait. Tires en un au sort !
+#### [:star:][:heavy_check_mark:] Ils sont quand même un peu trop en fait. Tires en un au sort !
 Cette année a lieu la coupe de trois sorciers à Poudlard. Afin que les directeurs puissent choisir un champion par école, il te demandent de créer une fonction leur permettant de tirer au sort une personne au hasard dans la base des élèves que tu as mis à disposition dans la question précédente.
 
 Tu vas donc devoir créer une nouvelle route disponible à l'adresse: http://localhost:3000/real/randomstudent
