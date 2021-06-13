@@ -8,31 +8,31 @@ Ce projet est conçu comme un tp itératif te permettant de tester tes connaissa
 > D'ailleurs, on t'invite à rejoindre notre Discord pour poser tes questions ou montrer où tu en es dans ton projet: https://discord.gg/8KdQZZCFNK
 
 ## Table des matières
-* [Teolia - Get on your Apprenticeship !](#teolia---get-on-your-apprenticeship-)
-* [Table des matières](#table-des-matières)
-* [Outils](#outils)
-* [Découvre le projet](#découvre-le-projet)
-  * [Récupère le projet](#récupère-le-projet)
-  * [Démarrer l'API](#démarrer-lapi)
-  * [Démarrer le frontend](#démarrer-le-frontend)
-  * [What's inside the box ?](#whats-inside-the-box-)
-* [Le projet](#le-projet)
-  * [But du projet](#but-du-projet)
-  * [Choisi ton parcours !](#choisi-ton-parcours-)
-    * [[:star:] Affiche la liste des élèves de Poudlard](#star-affiche-la-liste-des-élèves-de-poudlard)
-    * [[:star:] Eh mais attends, y a personne à Poudlard ou quoi ?!](#star-eh-mais-attends-y-a-personne-à-poudlard-ou-quoi-)
-    * [[:star:] Ils sont quand même un peu trop en fait. Tires en un au sort !](#star-ils-sont-quand-même-un-peu-trop-en-fait-tires-en-un-au-sort-)
-    * [[:fire:] [FRONT/API] As you wish :smile:](#fire-frontapi-as-you-wish-smile)
-    * [[:fire:] [FRONT] Claque ton plus beau CSS](#fire-front-claque-ton-plus-beau-css)
-    * [[:fire:] [API] Implémente un système de filtre par maison](#fire-api-implémente-un-système-de-filtre-par-maison)
-    * [[:fire::fire:] [FRONT/API] Dockerise les images front et API](#firefire-frontapi-dockerise-les-images-front-et-api)
-    * [[:fire::fire:] [FRONT/CLOUD] Déploie le front sur Github pages](#firefire-frontcloud-déploie-le-front-sur-github-pages)
-    * [[:fire:] [API/CLOUD] Déploie l'API sur Heroku](#fire-apicloud-déploie-lapi-sur-heroku)
-    * [[:fire::fire:] [FRONT] C'est la crise ! Il nous faut des stats](#firefire-front-cest-la-crise--il-nous-faut-des-stats)
-    * [[:fire::fire::fire:] [API/DB/CLOUD] Utilise Google Cloud firebase pour stocker les données json](#firefirefire-apidbcloud-utilise-google-cloud-firebase-pour-stocker-les-données-json)
-    * [[:fire::fire:] [FRONT] Rend le site responsive pour pouvoir le visualiser sur un smartphone ](#firefire-front-rend-le-site-responsive-pour-pouvoir-le-visualiser-sur-un-smartphone)
-    * [[:fire::fire:] [FRONT] Met en place des tests fonctionnels avec Cypress](#firefire-front-met-en-place-des-tests-fonctionnels-avec-cypress)
-    * [[:fire::fire:] [API] Met en place des tests unitaires avec jest sur l'API](#firefire-api-met-en-place-des-tests-unitaires-avec-jest-sur-lapi)
+- [Teolia - Get on your Apprenticeship !](#teolia---get-on-your-apprenticeship-)
+  - [Table des matières](#table-des-matières)
+  - [Outils](#outils)
+  - [Découvre le projet](#découvre-le-projet)
+    - [Récupère le projet](#récupère-le-projet)
+    - [Démarrer l'API](#démarrer-lapi)
+    - [Démarrer le frontend](#démarrer-le-frontend)
+    - [What's inside the box ?](#whats-inside-the-box-)
+  - [Le projet](#le-projet)
+    - [But du projet](#but-du-projet)
+    - [Choisi ton parcours !](#choisi-ton-parcours-)
+      - [:star: Affiche la liste des élèves de Poudlard](#star-affiche-la-liste-des-élèves-de-poudlard)
+      - [:star: Eh mais attends, y a personne à Poudlard ou quoi ?!](#star-eh-mais-attends-y-a-personne-à-poudlard-ou-quoi-)
+      - [:star: Ils sont quand même un peu trop en fait. Tires en un au sort !](#star-ils-sont-quand-même-un-peu-trop-en-fait-tires-en-un-au-sort-)
+      - [[:fire:] [FRONT/API] As you wish :smile:](#fire-frontapi-as-you-wish-smile)
+      - [[:fire:] [FRONT] Claque ton plus beau CSS](#fire-front-claque-ton-plus-beau-css)
+      - [[:fire:] [API] Implémente un système de filtre par maison](#fire-api-implémente-un-système-de-filtre-par-maison)
+      - [[:fire::fire:] [FRONT/API] Dockerise les images front et API](#firefire-frontapi-dockerise-les-images-front-et-api)
+      - [[:fire::fire:] [FRONT/CLOUD] Déploie le front sur Github pages](#firefire-frontcloud-déploie-le-front-sur-github-pages)
+      - [[:fire:] [API/CLOUD] Déploie l'API sur Heroku](#fire-apicloud-déploie-lapi-sur-heroku)
+      - [[:fire::fire:] [FRONT] C'est la crise ! Il nous faut des stats](#firefire-front-cest-la-crise--il-nous-faut-des-stats)
+      - [[:fire::fire::fire:] [API/DB/CLOUD] Utilise Google Cloud firebase pour stocker les données json](#firefirefire-apidbcloud-utilise-google-cloud-firebase-pour-stocker-les-données-json)
+      - [[:fire::fire:] [FRONT] Rend le site responsive pour pouvoir le visualiser sur un smartphone](#firefire-front-rend-le-site-responsive-pour-pouvoir-le-visualiser-sur-un-smartphone)
+      - [[:fire::fire:] [FRONT] Met en place des tests fonctionnels avec Cypress](#firefire-front-met-en-place-des-tests-fonctionnels-avec-cypress)
+      - [[:fire::fire:] [API] Met en place des tests unitaires avec jest sur l'API](#firefire-api-met-en-place-des-tests-unitaires-avec-jest-sur-lapi)
 
 ## Outils
 * Pour faire le projet, tu peux utiliser les outils que tu souhaites (VSCode, vim, Atom, Sublime, ...).
@@ -93,7 +93,7 @@ Le but est d'améliorer les fonctionnalités du front et de l'API afin d'obtenir
 > :fire: = facile et 
 > :fire::fire::fire: = dur
 
-#### [:star:] Affiche la liste des élèves de Poudlard
+#### [:star:][:heavy_check_mark:] Affiche la liste des élèves de Poudlard
 Pour commencer, tu vas devoir améliorer le front afin d'afficher la liste de tous les élèves en préinscription à Poudlard.
 Pour cela
 * Commence par modifier l'appel API fait depuis le front pour appeler http://localhost:3000/dummy/students
@@ -101,7 +101,7 @@ Pour cela
 
 > Libre à toi d'implémenter ce que tu veux pour l'affichage. Du temps que ça te plait, c'est le principal
 
-#### [:star:] Eh mais attends, y a personne à Poudlard ou quoi ?!
+#### [:star:][:white_check_mark:] Eh mais attends, y a personne à Poudlard ou quoi ?!
 Tu dois te rendre compte que la liste des élèves est un peu courte quand même. Pour pallier ce problème, on va aller chercher une liste un peu plus à jour disponible sur l'API du ministère de la magie: http://hp-api.herokuapp.com/api/characters
 
 Ici, ton but va être de réaliser une nouvelle route dans l'API qui se chargera de récupérer la liste des élèves pour toi à chaque appel.
@@ -116,7 +116,7 @@ Puis améliore ton front pour afficher quelques nouvelles informations que tu ne
 
 > Tu peux afficher les infos comme tu le souhaites, essaye juste d'avoir une interface lisible (un tableau par exemple)
 
-#### [:star:] Ils sont quand même un peu trop en fait. Tires en un au sort !
+#### [:star:][:white_check_mark:] Ils sont quand même un peu trop en fait. Tires en un au sort !
 Cette année a lieu la coupe de trois sorciers à Poudlard. Afin que les directeurs puissent choisir un champion par école, il te demandent de créer une fonction leur permettant de tirer au sort une personne au hasard dans la base des élèves que tu as mis à disposition dans la question précédente.
 
 Tu vas donc devoir créer une nouvelle route disponible à l'adresse: http://localhost:3000/real/randomstudent
