@@ -1,22 +1,28 @@
 import React, { useState } from 'react';
 import logo from './hogwarts.png';
 import './App.css';
-import { ListGroup, ListGroupItem, Card } from 'react-bootstrap';
+import { ListGroup, ListGroupItem, Row, Button } from 'react-bootstrap';
 import PropTypes from 'prop-types';
 
 const PoudlarStudents = ({ students }) => {
   return (
     <ListGroup>
-      {students.map(({ name, house, yearOfBirth }) => {
+      {students.map(({ name, house, yearOfBirth, image }) => {
         console.log(name, house);
-        const key = `${name}${yearOfBirth}`;
+        const id = `${name}${yearOfBirth}`;
         return (
-        <ListGroupItem key={key}>
-          <Card>
-            <div className="card-body">
-              <p className="card-text">{name}</p>
+        <ListGroupItem key={id}>
+          <Row>
+            <div className="media">
+              <img className="align-self-center mr-2" src={image} alt="..." height="30" width="30" />
+              <div className="media-body">
+                <h5 className="mt-0 mb-1">
+                  <p className="text-black">{name}</p>
+                </h5>
+                <div className="p-3">{house}</div>
+              </div>
             </div>
-          </Card>
+          </Row>
         </ListGroupItem>
       )
       })}
@@ -43,14 +49,24 @@ const App = (() => {
 
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Here is a list of all students:
-        </p>
-        <button className="btn btn-primary" type="button" onClick={callAPI}>Click Me!</button>
-        <PoudlarStudents students={students} />
-      </header>
+      <body className="container">
+        <div className="row justify-content-center">
+          <div className="col-4">
+            <div className="d-flex flex-column justify-content-center">
+              <img src={logo} className="App-logo" alt="logo" />
+              <h5>
+                Here is a list of all students
+              </h5>
+              <Button variant="primary" onClick={callAPI}>Click Me!</Button>
+            </div>
+          </div>
+        </div>
+        <div className="row justify-content-envenly">
+          <div className="col-4">
+            <PoudlarStudents students={students} />
+          </div>
+        </div>
+      </body>
     </div>
   );
 })
