@@ -10,7 +10,6 @@ router.get('/', function (req, res) {
 
 router.get('/students', function (req, res) {
     var queryParam = req.query.house !== undefined ? "/house/" + req.query.house : "";
-    console.log(queryParam);
     axios.get(URL_POUDLARSTUDENTS_API + queryParam)
     .then((response) => {
         res.json(response.data);
@@ -21,9 +20,10 @@ router.get('/students', function (req, res) {
 });
 
 router.get('/randomstudent', function (req, res) {
-    axios.get(URL_POUDLARSTUDENTS_API)
+    var queryParam = req.query.house !== undefined ? "/house/" + req.query.house : "";
+    axios.get(URL_POUDLARSTUDENTS_API + queryParam)
     .then((response) => {
-        const rand = Math.round(Math.random() * 25);
+        const rand = Math.round(Math.random() * (response.data.length - 1));
         res.json(response.data[rand]);
     })
     .catch((error) => {
