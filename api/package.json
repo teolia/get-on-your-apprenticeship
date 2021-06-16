@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "start": "nodemon ./bin/www",
-    "test": "echo test"
+    "test": "echo test",
+    "devStart": "export GOOGLE_APPLICATION_CREDENTIALS=\"/home/arthur/Dev/PERSO/get-on-your-apprenticeship/api/db/key/harrypotter-api-316818-09c318c27f60.json\" && nodemon ./bin/www"
   },
   "devDependencies": {
     "eslint": "^6.8.0",

@@ -10,6 +10,7 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var dummyRouter = require('./routes/dummy');
 var realRouter = require('./routes/real');
+var realDBRouter = require('./routes/real-db');
 
 var app = express();
 app.use(cors());
@@ -28,6 +29,7 @@ app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/dummy', dummyRouter);
 app.use('/real', realRouter);
+app.use('/real-db', realDBRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
