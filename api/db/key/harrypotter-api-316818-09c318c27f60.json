@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "harrypotter-api-316818",
+  "private_key_id": "09c318c27f60d5e76a09f0789511f458449ee0d3",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC3A1Nqjk8ssg/p\nEIyG0aItZa6dhhLQQXTnD7DxPM2ZPwMkgikPJMqrOonSLolQEwuPAUyqbDM2Llmx\ngGTFmW4PwWJ5SjYPA+PkfAYkcscPSA5Ph5jKikNlljMxyoOWKPc60qnUHgiC1hDX\n3PwL8HX9Pbv82Vurbz0S/qRL7ZJqaoVEtndkirjCnYOnVxAn1Kr6FXMs+OIPhUMb\nS6pT7jdNw0/dN6fikgIEDx8Q/z8Xlzm/jPdX5FmuVLn+ZG+OqWSQigrqOFHnvgpe\nqOfEaVq6TuGZVIP6XJD4v72g8Klhn1uc7zfhIM5sbLwqKrp76Llnb4D2G3ABrBNo\nP1MHpRnXAgMBAAECggEAR3Y6f8yi2OKMuOaX4NsBtzVRujvMo9ozYjgr0P77jz/e\nI8bZborgwnzArTwzrPtK06PfwlouoxT1PAzVDJ2NLwTFxXO3aSSNO748DcZtuSdb\nQy3A+TGFAKlmQyZ/PEaxxxvUabnye9hHymqFVsol4GVXPvPGyknM8NpS4D0bo4Zc\nhyZzY/aNexNFtHWZowfOEVX3UdyacaaAYoqOFzlKTvdx4t4KKcramjXCk/Jwn1Tj\n4mFeOlU4+M3vGmBOdwREckG1L4uFpswP+hbi3Od7Ia7H+/1QpZ3Wlgi3mEmkajiu\nA9DP8q2vDvQftqH/K+AvFEzaU/b1GARKotti5WVirQKBgQDbEGt4C41q+S1ok9+W\ntPH+drWYZ7QxjFE/DtYNGSDsvWgkbT6y8n8WtlyVAK/ULvJrLDDhkAXxVEAdFjcT\nse8QE81iK8YcpUnXZdRWN922hqFl70iUs4ghey0QoQIgYdKzyvCWpiR/qFxcqF7R\nw4IxWqBW6JHbOlxa6TFhKxB0wwKBgQDV3s+7NpPHvu+9hiVtkWwfuDLdx0ZbaIyA\n2DSkzLotyR/qBmYoMYh0Lbynukcy6QdfEQiodUnjs89MUaWwqROMavLlFXOKpKDR\nY6a/PPFHXaOc2937M6hpgnOkmgBnnkHd3tI174lIWiSQW4pL8ssrU2avKLrLOVmR\nXDx/4GOlXQKBgGXyL0FPhwGIcqRfZMc67/9u+TWy1T3Vwh2pZt3zmsnxn1yMZoha\np+BG/7Dr/+er7W8IwrrGDq3vemLO6tTEkq+Vt5f/LRQ5q7KNFhMFrq152/SXNdzV\n6/1A2IkLlPTC8Y5wXCSPrx6lmE4aoP3XkWgsd7/aPb6bW02Hhk5k/ySHAoGATEY7\nlcwgJlPNUq1d+dasVh+uXHQufnkp6uWw2Ll/CMc7D46armkD/lM1figsLlb3XwtH\nKDU0VfYRz2krC3cxVpnp6JOe8mpGRIcit/93GXmm2VF8uJMy0/ZHYgPecxX47bUD\nCWNVda1YbveGuhFsLhZ/f6ap/8KDVBkuJnkTcK0CgYA9LwekgYR+GaspIQ+kZRjF\n29IWAsZLysFLJI69vkR09rpC3j4xY4rHmK+DqCKfAk8RieECqf9g3KJXmhN3fNqm\n4ICT3ZFmOCjftaypIFTpu1Ov9X2IlolZoPtW8Sc+rSkqJYo65FZ8nNtNMt5ddojp\nh3SYHzYEC0xx5v3LtIfJjA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "api-backend@harrypotter-api-316818.iam.gserviceaccount.com",
+  "client_id": "105844389145313123693",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/api-backend%40harrypotter-api-316818.iam.gserviceaccount.com"
+}
