@@ -87,10 +87,14 @@ Maintenant que tu as démarré le front et l'API, tu dois pouvoir contempler un 
 Le but est d'améliorer les fonctionnalités du front et de l'API afin d'obtenir les résultats demandés dans les items suivants.
 
 ### Choisi ton parcours !
-> :information_source: **INFO**: Seuls les items de la liste marqués par [:star:] sont à faire a minima. Pour le reste, marqués par [:fire:], tu dois choisir deux items au minimum et essayer de les implémenter. Après, si t'es on fire et que tu veux en faire un maximum, c'est pas moi qui vais t'en empêcher :smile:
+> :information_source: **INFO**: Seuls les items de la liste marqués par [:star:] sont à faire a minima. Pour le reste, marqués par [:fire:], tu dois choisir 5 items au minimum et essayer de les implémenter. Après, si t'es on fire et que tu veux en faire un maximum, c'est pas moi qui vais t'en empêcher :smile:
 
 > J'ai essayé de représenter la difficulté de chaque tâche optionnelle en ajoutant des symbôles :fire:. 
-> :fire: = facile et 
+
+> :fire: = facile
+
+> :fire: = moyen
+
 > :fire::fire::fire: = dur
 
 #### [:star:] Affiche la liste des élèves de Poudlard
@@ -109,15 +113,15 @@ Ici, ton but va être de réaliser une nouvelle route dans l'API qui se chargera
 Pour cela, dans le dossier api:
 * Créer un nouveau fichier appelé `real.js` (parce que c'est la vraie API qu'on est en train de créer) dans le repertoire `routes`. Tu peux t'inspirer du contenu du fichier dummy pour remplir ton nouveau fichier
 * Référence ta nouvelle route dans le ficher `app.js` pour qu'elle soit accessible lors d'un appel sur http://localhost:3000/real/students
-* Implémente le code qui va bien pour que cette fonction aille chercher la liste des élèves sur http://hp-api.herokuapp.com/api/characters puis la renvoie telle quelle.
+* Implémente le code qui va bien pour que cette fonction aille chercher la liste des élèves sur https://fedeperin-harry-potter-api-en.herokuapp.com/characters puis la renvoie telle quelle.
 
 
-Puis améliore ton front pour afficher quelques nouvelles informations que tu ne veux absolument pas manquer. Le `Patronus` des élèves par exemple.
+Puis améliore ton front pour afficher quelques nouvelles informations que tu ne veux absolument pas manquer. Le `surnom` des élèves par exemple.
 
 > Tu peux afficher les infos comme tu le souhaites, essaye juste d'avoir une interface lisible (un tableau par exemple)
 
 #### [:star:] Ils sont quand même un peu trop en fait. Tires en un au sort !
-Cette année a lieu la coupe de trois sorciers à Poudlard. Afin que les directeurs puissent choisir un champion par école, il te demandent de créer une fonction leur permettant de tirer au sort une personne au hasard dans la base des élèves que tu as mis à disposition dans la question précédente.
+Cette année a lieu la coupe des trois sorciers à Poudlard. Afin que les directeurs puissent choisir un champion par école, il te demandent de créer une fonction leur permettant de tirer au sort une personne au hasard dans la base des élèves que tu as mis à disposition dans la question précédente.
 
 Tu vas donc devoir créer une nouvelle route disponible à l'adresse: http://localhost:3000/real/randomstudent
 
@@ -129,14 +133,14 @@ Pour cela, tu peux ajouter une nouvelle route dans le fichier `real.js`.
 
 > :rotating_light::rotating_light::rotating_light::rotating_light::rotating_light::rotating_light::rotating_light::rotating_light::rotating_light::rotating_light:
 
-> Je le remet la parce que je sais que personne lis les consignes jusqu'au bout. A partir d'ici, tu n'es pas obligé de tout faire, choisis juste deux options [:fire:] et implémente les. Si tu veux en faire plus, go go go ! :rocket::rocket::rocket: (en vrai si tu arrives à faire tous les items, t'es chaud ! :fire:)
+> Je le remet la parce que je sais que personne lis les consignes jusqu'au bout. A partir d'ici, tu n'es pas obligé de tout faire, choisis juste 5 options [:fire:] et implémente les. Si tu veux en faire plus, go go go ! :rocket::rocket::rocket: (en vrai si tu arrives à faire tous les items, t'es chaud ! :fire:)
 
 > :rotating_light::rotating_light::rotating_light::rotating_light::rotating_light::rotating_light::rotating_light::rotating_light::rotating_light::rotating_light:
 
 ---
 
 #### [:fire:] [FRONT/API] As you wish :smile:
-Avant de te donner pleins de trucs dont t'as jamais entendu parler, je t'encourage à implémenter ce qui te fait plaisir. Si le début de projet t'as donné des idées et que tu veux pousser à fond, vas y ! Ça comptera tout aussi bien pour un (ou même tes deux) questions optionnelles
+Avant de te donner pleins de trucs dont t'as jamais entendu parler, je t'encourage à implémenter ce qui te fait plaisir. Si le début de projet t'as donné des idées et que tu veux pousser à fond, vas y ! Ça comptera tout aussi bien pour une question optionnelle
 
 #### [:fire:] [FRONT] Claque ton plus beau CSS
 Tu trouves mon front claqué ?! Bon, en vrai, tu as raison (même si j'ai tout donné :disappointed:)
@@ -164,7 +168,7 @@ Un front dispo pour toi sur ton ordi, c'est bien. Mais le rendre disponible à t
 Pour déployer ton site, tu vas devoir le builder (regarde du coté de `npm run build`)
 Tu as maintenant une archive statique de site dans un répertoire build. Il ne te reste plus qu'a le déployer à l'aide de [Github Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site) (solution gratuite)
 
-Normalement, si tu as réussi ton coup, tu devrais avoir un site déployé sur les internets avec une URL du style: `https://<ton_id_github>.github.io/get-on-your-apprenticeship`
+Normalement, si tu as réussi ton coup, tu devrais avoir un site déployé sur `les internets` avec une URL du style: `https://<ton_id_github>.github.io/get-on-your-apprenticeship`
 
 #### [:fire:] [API/CLOUD] Déploie l'API sur Heroku
 Si tu as fait la question précédente, tu te demande surement comment déployer le code de ton API. Et bien, sache que c'est encore plus simple que ton front.
@@ -179,7 +183,7 @@ Sors ta plus belle librairie front pour afficher les statistiques de ton choix d
 #### [:fire::fire::fire:] [API/DB/CLOUD] Utilise Google Cloud firebase pour stocker les données json
 Pour l'instant, tu appelles une API externe qui est rattachée au ministère de la magie. Cependant, Poudlard voudrait être maitre de ses données et entreprend donc de rapatrier les données dans une base de donnée Cloud, à savoir: [Google Cloud firestore](https://cloud.google.com/firestore)
 
-Pour cela, instancie une database Firestore, puis copie les données de l'API dasn la collection que tu auras créée. Enfin, modifie ton API pour qu'elle aille chercher dans ta database fraichement créée.
+Pour cela, instancie une database Firestore, puis copie les données de l'API dans la collection que tu auras créée. Enfin, modifie ton API pour qu'elle aille chercher dans ta database fraichement créée.
 
 > Tu peux utiliser la doc quickstart pour t'aider: https://cloud.google.com/firestore/docs/quickstart-servers#node.js
 
