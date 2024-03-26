@@ -7,7 +7,7 @@ function App() {
 
   useEffect(() => {
     const fetchStudents = async () => {
-      const response = await fetch('http://localhost:3000/dummy/student');
+      const response = await fetch('http://localhost:3000/dummy/students');
       const data = await response.json();
       setStudents(data);
     };
