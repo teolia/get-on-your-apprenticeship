@@ -41,8 +41,9 @@ Ce projet est conçu comme un tp itératif te permettant de tester tes connaissa
 ## Outils
 * Pour faire le projet, tu peux utiliser les outils que tu souhaites (VSCode, vim, Atom, Sublime, ...).
 Si tu ne sais pas quel outil utiliser, je te conseille de prendre [VSCode](https://code.visualstudio.com/)
-* Le seul prérequis pour faire le projet est d'avoir [NodeJS installé sur son PC](https://nodejs.org/en/)
-* Et [Git](https://git-scm.com/downloads), bien entendu
+* Les seuls prérequis pour faire le projet est d'avoir [NodeJS installé sur son PC](https://nodejs.org/en/)
+* [Git](https://git-scm.com/downloads)
+* Et que [l'API soit en TypeScript](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html)
 
 ## Découvre le projet
 
@@ -58,7 +59,7 @@ git clone https://github.com/<ton_id_github>/get-on-your-apprenticeship.git
 ```bash
 cd api
 npm install
-npm start
+npm run dev
 ```
 
 > L'API devrait alors être disponible à l'adresse suivante: http://localhost:3000
@@ -67,16 +68,12 @@ Pour vérifier qu'elle fonctionne correctement, tu peux charger l'URL suivante: 
 
 ---
 
-> :raised_hand::raised_hand: Eh msieur ! Je fais quoi moi si j'aime pas les API en node (express) ?
-
-> :older_man: Mais tu fais comme tu veux. Si tu préfères te faire un back en python (flask par ex), il y a aucun soucis. Essaye juste de reprendre le code de base situé dans le fichier `api/routes/dummy.js`. Contacte moi sur Discord (@Albus Dumbledore sur Discord) si tu as besoin d'aide pour créer l'API python équivalente à celle en node.
-
 ### Démarrer le frontend
 Dans un autre terminal (on veut que le front et l'API soit démarrés en même temps)
 ```bash
 cd front
 npm install
-npm start
+npm run dev
 ```
 
 > Le front devrait alors être disponible à l'adresse suivante: http://localhost:5137
@@ -141,6 +138,8 @@ Pour ce faire, penses à bien écrire tes "tickets de tâches" dans un tableau "
 
 Dobby te conseille d'utiliser Jira mais tu peux très bien utiliser autre chose comme Trello ou ClickUp par exemple.
 
+> [Getting Started de Jira Software](https://www.atlassian.com/software/jira/guides/getting-started/basics#step-2-pick-a-template)
+
 ---
 
 > :rotating_light::rotating_light::rotating_light::rotating_light::rotating_light::rotating_light::rotating_light::rotating_light::rotating_light::rotating_light:
@@ -171,7 +170,6 @@ En fait, on a vraiment trop d'élèves à Poudlard cette année, il faudrait pou
 Normalement, ta route devrait ressembler àa ceci : `/real/students?page=2`.
 
 #### :fire: [DEVOPS] Dockerise les images front et API
-> Celle la, elle compte pour deux 
 
 La on commence à rentrer dans les sujets DevOps !!! Viens te frotter à la containerisation en essayant de containeriser ton front et ton API.
 
