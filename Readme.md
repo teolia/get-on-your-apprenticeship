@@ -22,7 +22,7 @@ Ce projet est conçu comme un tp itératif te permettant de tester tes connaissa
     * [:star: Affiche la liste des élèves de Poudlard](#star-affiche-la-liste-des-élèves-de-poudlard)
     * [:star: Eh mais attends, y a personne à Poudlard ou quoi ?!](#star-eh-mais-attends-y-a-personne-à-poudlard-ou-quoi-)
     * [:star: Ils sont quand même un peu trop en fait. Tires en un au sort !](#star-ils-sont-quand-même-un-peu-trop-en-fait-tires-en-un-au-sort-)
-    * [:star: [AGILE/GESTION] Un peu de propre : Récurvite !](#star-agilegestion-un-peu-de-propre--récurvite)
+    * [:star: [AGILE/GESTION] Un peu de propre : Récurvite !](#star-agilegestion-un-peu-de-propre--récurvite-)
     * [:fire: [FRONT/API] As you wish :smile:](#fire-frontapi-as-you-wish-smile)
     * [:fire: [FRONT] Claque ton plus beau CSS](#fire-front-claque-ton-plus-beau-css)
     * [:fire: [API] Implémente un système de filtre par maison](#fire-api-implémente-un-système-de-filtre-par-maison)
